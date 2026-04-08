@@ -2,3 +2,16 @@
 
 @source "../index.html";
 @source "./**/*.{vue,js,ts}";
+
+@theme {
+  --color-studio: #5f43b2;
+  --color-dark: #010101;
+  --color-peach: #fefdfd;
+  --color-martinique: #3a3153;
+  --color-pearl: #b1aebb;
+}
+
+.background-dots {
+  background-image: radial-gradient(#00000033 50px);
+  background-size: 20px 20px;
+}
