@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
 @source "../index.html";
 @source "./**/*.{vue,js,ts}";
@@ -9,6 +10,20 @@
   --color-peach: #fefdfd;
   --color-martinique: #3a3153;
   --color-pearl: #b1aebb;
+}
+
+@layer utilities {
+  .text-outline-peach {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--color-peach);
+  }
+}
+
+@layer utilities {
+  .font-caveat {
+    font-family: 'Caveat', cursive;
+    font-optical-sizing: auto;
+  }
 }
 
 .background-dots {
