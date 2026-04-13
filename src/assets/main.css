@@ -26,6 +26,15 @@
   }
 }
 
+@keyframes floatStars {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-200vh);
+  }
+}
+
 .background-dots {
   background-image: radial-gradient(#00000033 50px);
   background-size: 20px 20px;
