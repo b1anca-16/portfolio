@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const stars = Array.from({ length: 150 }, () => ({
+const stars = Array.from({ length: 180 }, () => ({
   top: Math.random() * 200,
   left: Math.random() * 100,
   size: Math.random() * 3 + 1,
